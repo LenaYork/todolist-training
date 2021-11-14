@@ -1,0 +1,30 @@
+/* input button */
+.addInputButton {
+    border: none;
+    background-color: #0bdb0b;     
+}
+
+.addInputButton:hover {
+    cursor: pointer;
+    background-color: #09ac09;
+}
+
+.addInputButton:active {
+    background-color: #046604;
+    /* outline: 0.5px solid #05f105; */
+}
+
+/* input area */
+.inputItem {
+    outline: none;
+    border: none;
+    background-color: #8cec8c;
+}
+
+.inputItem:focus {
+    /* outline: none;
+    border: none; */
+    background-color: #bef0be;
+    color: #48504b;
+    outline: 1px solid #036103;
+}
