@@ -3,6 +3,6 @@ import "./Header.css";
 
 export function Header() {
     return(
-        <div></div>
+        <h1>TODO list</h1>
     )
 }
