@@ -1,0 +1,13 @@
+.todo-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: darksalmon;
+}
+
+.todo-item {
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: green;
+}
