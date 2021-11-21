@@ -1,0 +1,62 @@
+/* button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+} */
+
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* input button */
+button {
+    border: none;
+    background-color: #0bdb0b;     
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #09ac09;
+}
+
+button:active {
+    background-color: #046604;
+    /* outline: 0.5px solid #05f105; */
+}
+
+.delete-button {
+    border: 1px solid #f30b0b;
+    background-color: #ff0808;
+}
+
+.delete-button:hover {
+    background-color: #ca0b0b;
+}
+
+.delete-button:active {
+    background-color: #9b0808;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: #8cec8c;
+}
+
+.total-counter {
+    width: 30px;
+    text-align: center;
+    color: #121312;
+}
+
+.input:focus {
+    /* outline: none;
+    border: none; */
+    background-color: #bef0be;
+    color: #48504b;
+    outline: 1px solid #036103;
+}
