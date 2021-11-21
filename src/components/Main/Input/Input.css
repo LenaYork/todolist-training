@@ -1,4 +1,10 @@
+.inputForm {
+    display: flex;
+    justify-content: center;
+}
+
 /* input button */
+
 .addInputButton {
     border: none;
     background-color: #0bdb0b;     
