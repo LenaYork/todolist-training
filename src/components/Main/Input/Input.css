@@ -1,30 +1,18 @@
 .inputForm {
     display: flex;
     justify-content: center;
-}
-
-/* input button */
-
-.addInputButton {
-    border: none;
-    background-color: #0bdb0b;     
-}
-
-.addInputButton:hover {
-    cursor: pointer;
-    background-color: #09ac09;
-}
-
-.addInputButton:active {
-    background-color: #046604;
-    /* outline: 0.5px solid #05f105; */
+    justify-content: space-between;
 }
 
 /* input area */
 .inputItem {
     outline: none;
     border: none;
+    width: 90%;
     background-color: #8cec8c;
+    padding-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #032202;
 }
 
 .inputItem:focus {
@@ -32,5 +20,5 @@
     border: none; */
     background-color: #bef0be;
     color: #48504b;
-    outline: 1px solid #036103;
+    outline: 1px solid #047a04;
 }
