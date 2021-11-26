@@ -1,14 +1,19 @@
 .inputForm {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
     justify-content: space-between;
+    grid-template-columns: 1fr 7fr;
+}
+
+.inputForm button, .inputItem{
+    height: 120%;
 }
 
 /* input area */
 .inputItem {
     outline: none;
     border: none;
-    width: 90%;
     background-color: #8cec8c;
     padding-left: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
