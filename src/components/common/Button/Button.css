@@ -1,0 +1,42 @@
+button {
+    border: none;
+    padding: 3% 6%;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* button:active {
+    background-color: #046604;
+} */
+
+/* green button */
+.green-button {
+    background-color: #0bdb0b; 
+}
+
+.green-button:hover {
+    background-color: #09ac09;
+}
+
+.green-button:active {
+    background-color: #046604;
+}
+
+/* red button */
+.red-button  {
+    border: 1px solid #f30b0b;
+    background-color: #ff0808;
+}
+
+.red-button:hover {
+    background-color: #ca0b0b;
+}
+
+.red-button:active {
+    background-color: #9b0808;
+}
+
+

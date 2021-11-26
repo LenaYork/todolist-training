@@ -1,8 +1,8 @@
-button {
-    border: none;
+.main-container {
+    width: 70%;
+    margin: 0 auto;
 }
 
-button:hover {
-    cursor: pointer;
+input {
+    border-radius: 5px;
 }
-
