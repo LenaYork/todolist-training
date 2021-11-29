@@ -8,7 +8,7 @@ export function Main() {
     return( 
         <div className="main-container">
             <Input />
-            <List />
+            <List crazyProps = "We are props. Use use too!"/>
             <Buttons />
         </div>
     )
