@@ -1,50 +1,32 @@
 import React from 'react';
 
 import "./List.css";
-
-const todoList = [
-    'раз ромашка',
-    'два ромашка',
-    'три ромашка',
-    'а я четвертую сорвал',
-    'пять два ромашка',
-    'шесть ромашка',
-    'семь'
-]
-
-// export function List() {
-//     return(
-//         <div className='todo-list'>
-//             {todoList.map(todo => (
-//                 <div className="todo-item">
-//                     {todo}
-//                 </div>
-//             ))}
-//         </div>
-//     )
-// }
-
+import { Todo } from "./Todo/Todo";
 export class List extends React.Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            "state1" : "I am state! Use me please!!!"
+            todos: [
+                {text: 'раз ромашка', isChecked: false},
+                {text: 'два ромашка', isChecked: false},
+                {text: 'три ромашка', isChecked: false},
+                {text: 'а я четвертую сорвал', isChecked:true},
+                {text: 'пять два ромашка', isChecked:false},
+                {text: 'шесть ромашка', isChecked:false},
+                {text: 'семь', isChecked:false}
+            ]
         }
     }
 
     render() {
         return(
             <div className='todo-list'>
-                {todoList.map(todo => (
-                    <div className="todo-item">
-                        {todo}
-                    </div>
-                ))}
-                <div>
-                    <p>{this.state.state1}</p>
-                    <p>{this.props.crazyProps}</p>
-                </div>
+                {this.state.todos.map( (item) => {
+                    return (
+                        <Todo text={item.text} isChecked={item.isChecked} />
+                    )
+                } )}
             </div>
         )
     }  

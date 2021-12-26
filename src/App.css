@@ -1,4 +1,18 @@
 .App {
     width: 70vw;
     margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.dark {
+    background-color: #05330d;
+}
+
+.light {
+    background-color: #bdf5c6;
+}
+
+h1 {
+    margin-top: 0;
 }

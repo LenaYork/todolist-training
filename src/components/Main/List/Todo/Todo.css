@@ -1,0 +1,20 @@
+.Todo {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #089c08;
+}
+
+.todo-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.todo-text {
+    margin: 0;
+    padding: 0;
+}
